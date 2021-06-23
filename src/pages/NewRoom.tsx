@@ -31,7 +31,7 @@ export function NewRoom() {
     }
 
 
-    const roomRef = database.ref('room');
+    const roomRef = database.ref('rooms');
     //push jpgandp informando para a variavel roomRef
     const firebaseRoom = await roomRef.push({
       title: newRoom,
