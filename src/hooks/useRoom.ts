@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { isCallLikeExpression } from "typescript";
 import { database } from "../services/firebase";
 import { useAuth } from "./useAuth";
 
@@ -59,7 +58,7 @@ export function useRoom(roomId: string) {
           isHighlighted: value.isHighlighted,
           isAnswered: value.isAnswered,
           likeCount: Object.values(value.likes ?? {}).length,
-          likedId: Object.entries(value.likes ?? {}).find(([key, like]) => like.authorId === user?.id)?.[0],
+          likeId: Object.entries(value.likes ?? {}).find(([key, like]) => like.authorId === user?.id)?.[0],
 
           //? se retornou nada 
 
