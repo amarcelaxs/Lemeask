@@ -31,6 +31,7 @@ Este projeto foi desenvolvido utilizando:
 - [React](https://reactjs.org)
 - [Firebase](https://firebase.google.com/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Sass](https://sass-lang.com/)
 
 ## 🚀 Começando
 
