@@ -15,45 +15,52 @@
 
 <br>
 
-💻 Sobre o projeto
-Nesta edição do Next Level Week, iremos desenvolver uma aplicação para que o usuário possa fazer perguntas a outros usuários e assim receber uma resposta da comunidade, chamada Letmeask. Onde irá ser desenvolvida uma aplicação feita em ReactJS
+# Letmeask 1.0
+<br>
+<br>
 
-🧪 Tecnologias
+## 💻 Sobre o projeto
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Nesta edição do Next Level Week, iremos desenvolver uma aplicação para que o usuário possa fazer perguntas a outros usuários e assim receber uma resposta da comunidade, chamada Letmeask.
+Onde irá ser desenvolvida uma aplicação feita em ReactJS
+
+## 🧪 Ferramentas
+
+Este projeto foi desenvolvido utilizando:
 
 - [React](https://reactjs.org)
 - [Firebase](https://firebase.google.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 
-🚀 Como executar
+## 🚀 Começando
 
-Clone o projeto e acesse a pasta do mesmo.
+### Requisitos
+
+- Você precisa instalar [Node.js](https://nodejs.org/en/download/) e [Yarn](https://yarnpkg.com/) para executar este projeto.
+
+**Clone o projeto e acesse a pasta:**
 
 ```bash
-$ git clone https://github.com/rocketseat-education/nlw-06-reactjs
-$ cd nlw-06-reactjs
+$ https://github.com/CristianoDaSilvaFerreira/Letmeask.git
+$ cd letmeask
 ```
+**OBS** Clone o projeto na pasta que sentir melhor para acesso ao projeto.
 
-Para iniciá-lo, siga os passos abaixo:
+**Siga os passos abaixo:**
 ```bash
-# Instalar as dependências
+# Install the dependencies
 $ yarn
 
-# Iniciar o projeto
+# Start the project
 $ yarn start
 ```
-O app estará disponível no seu browser pelo endereço http://localhost:3000.
+O aplicativo estará disponível em `http://localhost:3000`
 
-Lembrando que será necessário criar uma conta no [Firebase](https://firebase.google.com/) e um projeto para disponibilizar um Realtime Database.
+## 🎨 Layout
 
-🔖 Layout
+Você pode ver o layout do projeto através do [Figma](http://figma.com/):
 
-Você pode visualizar o layout do projeto através do link abaixo:
-
-- [Layout Web](https://www.figma.com/file/u0BQK8rCf2KgzcukdRRCWh/Letmeask/duplicate) 
-
-Lembrando que você é preciso ter uma conta no [Figma](http://figma.com/).
+- [Prototype by Rebecca Gonzalez](https://www.figma.com/file/rgNLDQE5dlwJriJTB8tn11/Letmeask) 
 
 📝 License
 
